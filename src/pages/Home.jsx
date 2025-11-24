@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react'
 import Nav from '../components/nav'
 import Categories from '../Category'
-import Card from '../components/card'
+import Card from "../components/Card";
+
 import { food_items } from '../food'
 import { BsFilterSquareFill } from 'react-icons/bs'
 import { dataContext } from '../context/userContext'
